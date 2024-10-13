@@ -18,6 +18,13 @@
    2. `source venv/bin/activate`
    3. `pip install -r requirements.txt`
 
+### Make sure to setup your .env file
+
+Such as,  
+```bash
+SD_TOKEN="your_token"
+```
+
 This code was tested with Python 3.8, [Pytorch](https://pytorch.org/) 1.11 using pre-trained models through [huggingface / diffusers](https://github.com/huggingface/diffusers#readme).
 Specifically, we implemented our method over  [Latent Diffusion](https://huggingface.co/CompVis/ldm-text2im-large-256) and  [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4).
 Additional required packages are listed in the requirements file.
