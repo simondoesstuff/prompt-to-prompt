@@ -11,7 +11,7 @@
 
 1. Activate the nix dev flake
    1. `direnv allow` recommended
-   2. or, `nix flake develop`. Nix flake command will need to be enabled in nix config.
+   2. or, `nix develop`. Nix flake command will need to be enabled in nix config.
 2. If you used direnv, you're done!
 3. Setup the python environment (for python 3.8)
    1. `python -m venv venv`
