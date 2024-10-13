@@ -9,6 +9,15 @@
 
 ## Setup
 
+1. Activate the nix dev flake
+   1. `direnv allow` recommended
+   2. or, `nix flake develop`. Nix flake command will need to be enabled in nix config.
+2. If you used direnv, you're done!
+3. Setup the python environment (for python 3.8)
+   1. `python -m venv venv`
+   2. `source venv/bin/activate`
+   3. `pip install -r requirements.txt`
+
 This code was tested with Python 3.8, [Pytorch](https://pytorch.org/) 1.11 using pre-trained models through [huggingface / diffusers](https://github.com/huggingface/diffusers#readme).
 Specifically, we implemented our method over  [Latent Diffusion](https://huggingface.co/CompVis/ldm-text2im-large-256) and  [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4).
 Additional required packages are listed in the requirements file.
