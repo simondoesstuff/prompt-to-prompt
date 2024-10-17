@@ -1,4 +1,5 @@
 **/__pycache__
-venv
+venv38
+venv310
 .direnv
 .env
