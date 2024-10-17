@@ -1,5 +1,6 @@
 **/__pycache__
 venv38
-venv310
+venv311
 .direnv
 .env
+flux
